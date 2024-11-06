@@ -9,7 +9,7 @@ import Contact from './components/pages/Contact';
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/Xcentic'>
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<About />} />
